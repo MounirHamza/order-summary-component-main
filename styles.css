@@ -97,6 +97,7 @@ button:active {
   background-color: hsla(245, 75%, 52%, 0.877);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 .card--btn a {
   margin-bottom: 20px;
