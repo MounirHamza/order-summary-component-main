@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  max-width: 100%;
+  background: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.card {
+  width: 350px;
+  height: 70vh;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+.card--image img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.card--text h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px auto;
+  padding-left: 60px;
+}
+.card--text p {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 auto;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.card--plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  padding: 15px 0;
+  width: 90%;
+  border-radius: 10px;
+  background-color: hsla(225, 100%, 94%, 0.212);
+}
+.card__plan {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-around;
+  padding-right: 30px;
+  font-weight: 700;
+}
+.card__plan a:active,
+a:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+.plan__price {
+  color: rgba(0, 0, 0, 0.5);
+}
+.card--btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card--btn button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.card--btn button:hover,
+button:active {
+  background-color: hsla(245, 75%, 52%, 0.877);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
