@@ -9,7 +9,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-family: "Red Hat Display", sans-serif;
   max-width: 100%;
-  background: url(/images/pattern-background-mobile.svg);
+  background: url(images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
